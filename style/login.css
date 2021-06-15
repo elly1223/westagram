@@ -7,7 +7,7 @@ body {
 
 .login_bd {
   width: 400px;
-  margin: 100px auto;
+  margin: 80px auto;
   border: 1px solid lightgray;
   border-radius: 3px;
 }
@@ -32,7 +32,7 @@ body {
   color: gray;
 }
 
-.login_button button {
+.btn button {
   color: white;
   width: 300px;
   background-color: #A9D0F5;
@@ -43,8 +43,15 @@ body {
   margin-bottom: 20px;
 }
 
+.btn button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
 footer {
+  font-size: 10px;
   color: darkblue;
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 20px;
 }
