@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAFAFA;  /* 전체 배경 색 */
+  font-family: 'Montserrat', sans-serif, 'Nanum Gothic';  /* 폰트 */
+}

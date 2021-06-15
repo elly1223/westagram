@@ -1,0 +1,10 @@
+.login_bd {
+  width: 700px;
+  margin: 100px auto;
+  border: 1px solid gray;
+  border-radius: 1px;
+}
+
+.login_bd h1 {
+  text-align: center;
+}
