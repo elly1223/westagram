@@ -1,0 +1,57 @@
+body {
+  font
+
+}
+
+.main_bd {
+  width: 1100px;
+  margin: 80px auto;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_icons {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.left_icons h1 {
+  color: gray;
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 8px;
+}
+
+.left_icons h3 {
+  font-size: 30px;
+  font-family: Lobster, cursive;
+}
+
+.left_icons img {
+  width: 30px;
+  height: 30px;
+
+}
+
+.search input {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+.right_icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
