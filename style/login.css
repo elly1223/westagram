@@ -46,11 +46,10 @@ body {
 .btn button:hover {
   cursor: pointer;
   opacity: 0.5;
-  transition: 0.5s;
 }
 
 footer {
-  font-size: 10px;
+  font-size: 15px;
   color: darkblue;
   margin-top: 70px;
   padding: 20px;
