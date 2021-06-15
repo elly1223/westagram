@@ -1,1 +1,1 @@
-# westagram
+# westagram-frontend
