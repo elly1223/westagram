@@ -74,7 +74,7 @@ nav {
   background-color: white;
   display: flex;
   width: 500px;
-  height: 800px;
+  height: 100%;
   border: 1px solid lightgray;
   border-radius: 3px;
   margin-left: 350px;
@@ -144,6 +144,11 @@ nav {
   margin-left: 315px;
 }
 
+.main div.feeds .feeds_text {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
 .main div.feeds .feeds_text_top {
   display: flex;
   align-items: flex-end;
@@ -187,6 +192,19 @@ nav {
   display: flex;
 }
 
+.main div.feeds .reply textarea {
+  display: flex;
+  width: 400px;
+  height: 45px;
+  border: none;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+
+.main div.feeds .reply span {
+  display: flex;
+  align-items: center;
+} 
 
 /* 오른쪽 사이드 타이틀 */
 .main-right .main_right_nav .main_right_title {
