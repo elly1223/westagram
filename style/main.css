@@ -192,7 +192,7 @@ nav {
   display: flex;
 }
 
-.main div.feeds .reply textarea {
+.main div.feeds .reply input {
   display: flex;
   width: 400px;
   height: 45px;
@@ -201,10 +201,19 @@ nav {
   border-radius: 2px;
 }
 
-.main div.feeds .reply span {
+.main div.feeds .reply #reply-btn {
+  border: none;
+  color: gray;
+  background-color: white;
+  width: 70px;
+}
+
+.main div.feeds .feeds_text #list li {
   display: flex;
-  align-items: center;
-} 
+  list-style: none;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
 
 /* 오른쪽 사이드 타이틀 */
 .main-right .main_right_nav .main_right_title {
